@@ -1,0 +1,17 @@
+version: "3"
+services:
+    neo4j:
+        image: neo4j:5.2
+        environment:
+          - NEO4J_AUTH=none
+        volumes:
+          - "./exported/:/home/node/app/src/exported"
+
+    web:
+        build: .
+        volumes:
+          - "./exported/:/home/node/app/src/exported"
+        ports:
+          - "13000:3000"
+        depends_on:
+          - neo4j

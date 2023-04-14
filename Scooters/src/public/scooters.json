@@ -1,0 +1,16 @@
+[
+  {
+    "id": "0",
+    "battery": "100",
+    "coordinate_x": "59.985444887334296",
+    "coordinate_y": "30.30097846294469",
+    "status": "free"
+  },
+  {
+    "id": "1",
+    "battery": "90",
+    "coordinate_x": "59.986048497632694",
+    "coordinate_y": "30.302213055877125",
+    "status": "free"
+  }
+]

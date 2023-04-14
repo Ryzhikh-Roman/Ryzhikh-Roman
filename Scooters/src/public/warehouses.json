@@ -1,0 +1,16 @@
+[
+  {
+    "id": "0",
+    "coordinate_x": "59.983444887334296",
+    "coordinate_y": "30.30097846294469",
+    "numberOfScooters": "250",
+    "maxNumberOfScooters": "350"
+  },
+  {
+    "id": "1",
+    "coordinate_x": "59.987048497632694",
+    "coordinate_y": "30.302213055877125",
+    "numberOfScooters": "28",
+    "maxNumberOfScooters": "350"
+  }
+]

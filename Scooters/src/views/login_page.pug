@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title Login
+        link(rel='stylesheet', href='/stylesheets/jquery-ui.css')
+        link(rel='stylesheet', href='/stylesheets/w3.css')
+        link(rel='stylesheet', href='/stylesheets/style.css', type='text/css')
+    body
+        .block.loginEnter(style='height: 100vh')
+            form.w3-center(action='/enterLogin', method='get')
+                h3.w3-center Введите логин
+                input#loginInput(type='text', name='login', required='', placeholder='login')
+                |
+                br
+                h3.w3-center Введите пароль
+                input#passwordInput(type='password', name='password', required='', placeholder='password')
+                |
+                br
+                button#loginButton.w3-gray(onclick='') Войти
+        audio(controls= '')
+            source(src='music/keks+ukrop.mp3' type='audio/mpeg')
+            a(href='music/keks+ukrop.mp3')

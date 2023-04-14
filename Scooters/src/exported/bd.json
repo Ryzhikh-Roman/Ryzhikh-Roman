@@ -1,0 +1,1553 @@
+{
+  "nodes": [
+    {
+      "identity": 0,
+      "labels": [
+        "UNLOADING_AREA"
+      ],
+      "properties": {
+        "address": "Saint-Petersburg",
+        "coordinate_x": 27,
+        "coordinate_y": 67
+      },
+      "elementId": "0"
+    },
+    {
+      "identity": 1,
+      "labels": [
+        "USER"
+      ],
+      "properties": {
+        "name": "Pavel",
+        "password": "0000",
+        "login": "TypicalUser",
+        "type": "user",
+        "phone": "111222333"
+      },
+      "elementId": "1"
+    },
+    {
+      "identity": 2,
+      "labels": [
+        "TRIP"
+      ],
+      "properties": {
+        "cost": 0,
+        "time_end": 0,
+        "time_start": 0,
+        "status": 0
+      },
+      "elementId": "2"
+    },
+    {
+      "identity": 3,
+      "labels": [
+        "SCOOTER"
+      ],
+      "properties": {
+        "number": 1,
+        "battery": 86,
+        "coordinate_x": 10,
+        "coordinate_y": 20,
+        "status": "busy"
+      },
+      "elementId": "3"
+    },
+    {
+      "identity": 4,
+      "labels": [
+        "TECH_CARD"
+      ],
+      "properties": {
+        "maxPowerCapacity": 100,
+        "creationYear": 2022,
+        "manufacturer": "Xiaomi",
+        "mileage": 0
+      },
+      "elementId": "4"
+    },
+    {
+      "identity": 5,
+      "labels": [
+        "USER"
+      ],
+      "properties": {
+        "name": "Sergey",
+        "password": "1234",
+        "type": "admin",
+        "login": "TypicalWorker",
+        "phone": "444555666"
+      },
+      "elementId": "5"
+    },
+    {
+      "identity": 6,
+      "labels": [
+        "MAINTENANCE_LOG"
+      ],
+      "properties": {
+        "message": "it is ok"
+      },
+      "elementId": "6"
+    },
+    {
+      "identity": 7,
+      "labels": [
+        "TECH_CARD"
+      ],
+      "properties": {
+        "maxPowerCapacity": 98,
+        "creationYear": 2021,
+        "manufacturer": "Yandex",
+        "mileage": 100
+      },
+      "elementId": "7"
+    },
+    {
+      "identity": 8,
+      "labels": [
+        "WAREHOUSE_LOG"
+      ],
+      "properties": {
+        "creationTime": 0,
+        "actionType": 1
+      },
+      "elementId": "8"
+    },
+    {
+      "identity": 9,
+      "labels": [
+        "WAREHOUSE"
+      ],
+      "properties": {
+        "address": "СПб, улица Мира, дом 1, помещение 1",
+        "coordinate_x": 0,
+        "coordinate_y": 0,
+        "capacity": 12
+      },
+      "elementId": "9"
+    },
+    {
+      "identity": 10,
+      "labels": [
+        "SCOOTER"
+      ],
+      "properties": {
+        "number": 2,
+        "battery": 81,
+        "coordinate_x": 5,
+        "coordinate_y": 11,
+        "status": "busy"
+      },
+      "elementId": "10"
+    },
+    {
+      "identity": 11,
+      "labels": [
+        "SCOOTER"
+      ],
+      "properties": {
+        "number": 3,
+        "battery": 27,
+        "coordinate_x": 17,
+        "coordinate_y": 15,
+        "status": "busy"
+      },
+      "elementId": "11"
+    },
+    {
+      "identity": 12,
+      "labels": [
+        "SCOOTER"
+      ],
+      "properties": {
+        "number": 4,
+        "battery": 17,
+        "coordinate_x": 10,
+        "coordinate_y": 11,
+        "status": "busy"
+      },
+      "elementId": "12"
+    },
+    {
+      "identity": 13,
+      "labels": [
+        "SCOOTER"
+      ],
+      "properties": {
+        "number": 5,
+        "battery": 27,
+        "coordinate_x": 20,
+        "coordinate_y": 32,
+        "status": "busy"
+      },
+      "elementId": "13"
+    },
+    {
+      "identity": 14,
+      "labels": [
+        "SCOOTER"
+      ],
+      "properties": {
+        "number": 6,
+        "battery": 37,
+        "coordinate_x": 30,
+        "coordinate_y": 53,
+        "status": "busy"
+      },
+      "elementId": "14"
+    },
+    {
+      "identity": 15,
+      "labels": [
+        "SCOOTER"
+      ],
+      "properties": {
+        "number": 7,
+        "battery": 47,
+        "coordinate_x": 40,
+        "coordinate_y": 74,
+        "status": "busy"
+      },
+      "elementId": "15"
+    },
+    {
+      "identity": 16,
+      "labels": [
+        "SCOOTER"
+      ],
+      "properties": {
+        "number": 8,
+        "battery": 57,
+        "coordinate_x": 50,
+        "coordinate_y": 25,
+        "status": "busy"
+      },
+      "elementId": "16"
+    },
+    {
+      "identity": 17,
+      "labels": [
+        "SCOOTER"
+      ],
+      "properties": {
+        "number": 9,
+        "battery": 67,
+        "coordinate_x": 60,
+        "coordinate_y": 46,
+        "status": "busy"
+      },
+      "elementId": "17"
+    },
+    {
+      "identity": 18,
+      "labels": [
+        "TECH_CARD"
+      ],
+      "properties": {
+        "maxPowerCapacity": 99,
+        "creationYear": 2022,
+        "manufacturer": "Yandex",
+        "mileage": 10
+      },
+      "elementId": "18"
+    },
+    {
+      "identity": 19,
+      "labels": [
+        "TECH_CARD"
+      ],
+      "properties": {
+        "maxPowerCapacity": 96,
+        "creationYear": 2021,
+        "manufacturer": "Xiaomi",
+        "mileage": 200
+      },
+      "elementId": "19"
+    },
+    {
+      "identity": 20,
+      "labels": [
+        "TECH_CARD"
+      ],
+      "properties": {
+        "maxPowerCapacity": 93,
+        "creationYear": 2019,
+        "manufacturer": "Yandex",
+        "mileage": 10000
+      },
+      "elementId": "20"
+    },
+    {
+      "identity": 21,
+      "labels": [
+        "TECH_CARD"
+      ],
+      "properties": {
+        "maxPowerCapacity": 95,
+        "creationYear": 2021,
+        "manufacturer": "Yandex",
+        "mileage": 10430
+      },
+      "elementId": "21"
+    },
+    {
+      "identity": 22,
+      "labels": [
+        "TECH_CARD"
+      ],
+      "properties": {
+        "maxPowerCapacity": 88,
+        "creationYear": 2021,
+        "manufacturer": "Xiaomi",
+        "mileage": 1030
+      },
+      "elementId": "22"
+    },
+    {
+      "identity": 23,
+      "labels": [
+        "TECH_CARD"
+      ],
+      "properties": {
+        "maxPowerCapacity": 93,
+        "creationYear": 2020,
+        "manufacturer": "Yandex",
+        "mileage": 10450
+      },
+      "elementId": "23"
+    },
+    {
+      "identity": 24,
+      "labels": [
+        "TECH_CARD"
+      ],
+      "properties": {
+        "maxPowerCapacity": 94,
+        "creationYear": 2021,
+        "manufacturer": "Xiaomi",
+        "mileage": 3400
+      },
+      "elementId": "24"
+    },
+    {
+      "identity": 25,
+      "labels": [
+        "MAINTENANCE_LOG"
+      ],
+      "properties": {
+        "message": "it is ok"
+      },
+      "elementId": "25"
+    },
+    {
+      "identity": 26,
+      "labels": [
+        "MAINTENANCE_LOG"
+      ],
+      "properties": {
+        "message": "it is ok"
+      },
+      "elementId": "26"
+    },
+    {
+      "identity": 27,
+      "labels": [
+        "MAINTENANCE_LOG"
+      ],
+      "properties": {
+        "message": "it is not ok"
+      },
+      "elementId": "27"
+    },
+    {
+      "identity": 28,
+      "labels": [
+        "MAINTENANCE_LOG"
+      ],
+      "properties": {
+        "message": "it is ok"
+      },
+      "elementId": "28"
+    },
+    {
+      "identity": 29,
+      "labels": [
+        "MAINTENANCE_LOG"
+      ],
+      "properties": {
+        "message": "it is not ok"
+      },
+      "elementId": "29"
+    },
+    {
+      "identity": 30,
+      "labels": [
+        "MAINTENANCE_LOG"
+      ],
+      "properties": {
+        "message": "it is ok"
+      },
+      "elementId": "30"
+    },
+    {
+      "identity": 31,
+      "labels": [
+        "MAINTENANCE_LOG"
+      ],
+      "properties": {
+        "message": "different log"
+      },
+      "elementId": "31"
+    },
+    {
+      "identity": 32,
+      "labels": [
+        "UNLOADING_AREA"
+      ],
+      "properties": {
+        "address": "Saint-Petersburg",
+        "coordinate_x": 177,
+        "coordinate_y": 23
+      },
+      "elementId": "32"
+    },
+    {
+      "identity": 33,
+      "labels": [
+        "UNLOADING_AREA"
+      ],
+      "properties": {
+        "address": "Saint-Petersburg",
+        "coordinate_x": 166,
+        "coordinate_y": 34
+      },
+      "elementId": "33"
+    },
+    {
+      "identity": 34,
+      "labels": [
+        "UNLOADING_AREA"
+      ],
+      "properties": {
+        "address": "Saint-Petersburg",
+        "coordinate_x": 155,
+        "coordinate_y": 45
+      },
+      "elementId": "34"
+    },
+    {
+      "identity": 35,
+      "labels": [
+        "UNLOADING_AREA"
+      ],
+      "properties": {
+        "address": "Saint-Petersburg",
+        "coordinate_x": 144,
+        "coordinate_y": 56
+      },
+      "elementId": "35"
+    },
+    {
+      "identity": 36,
+      "labels": [
+        "UNLOADING_AREA"
+      ],
+      "properties": {
+        "address": "Saint-Petersburg",
+        "coordinate_x": 133,
+        "coordinate_y": 67
+      },
+      "elementId": "36"
+    },
+    {
+      "identity": 37,
+      "labels": [
+        "UNLOADING_AREA"
+      ],
+      "properties": {
+        "address": "Saint-Petersburg",
+        "coordinate_x": 122,
+        "coordinate_y": 78
+      },
+      "elementId": "37"
+    },
+    {
+      "identity": 38,
+      "labels": [
+        "UNLOADING_AREA"
+      ],
+      "properties": {
+        "address": "Saint-Petersburg",
+        "coordinate_x": 111,
+        "coordinate_y": 89
+      },
+      "elementId": "38"
+    },
+    {
+      "identity": 39,
+      "labels": [
+        "WAREHOUSE"
+      ],
+      "properties": {
+        "address": "СПб, улица Войны, дом 2, помещение 2",
+        "coordinate_x": 7,
+        "coordinate_y": -17,
+        "capacity": 123
+      },
+      "elementId": "39"
+    },
+    {
+      "identity": 40,
+      "labels": [
+        "WAREHOUSE"
+      ],
+      "properties": {
+        "address": "СПб, улица Пира, дом 3, помещение 3",
+        "coordinate_x": 27,
+        "coordinate_y": -78,
+        "capacity": 34
+      },
+      "elementId": "40"
+    },
+    {
+      "identity": 41,
+      "labels": [
+        "WAREHOUSE"
+      ],
+      "properties": {
+        "address": "СПб, улица Жира, дом 4, помещение 1",
+        "coordinate_x": 67,
+        "coordinate_y": -27,
+        "capacity": 51
+      },
+      "elementId": "41"
+    },
+    {
+      "identity": 42,
+      "labels": [
+        "WAREHOUSE"
+      ],
+      "properties": {
+        "address": "СПб, улица Тира, дом 1, помещение 1",
+        "coordinate_x": 37,
+        "coordinate_y": -37,
+        "capacity": 34
+      },
+      "elementId": "42"
+    },
+    {
+      "identity": 43,
+      "labels": [
+        "USER"
+      ],
+      "properties": {
+        "name": "Anton",
+        "password": "4254",
+        "login": "Antoha",
+        "type": "user",
+        "phone": "899999999"
+      },
+      "elementId": "43"
+    },
+    {
+      "identity": 44,
+      "labels": [
+        "USER"
+      ],
+      "properties": {
+        "name": "Boris",
+        "password": "8794",
+        "login": "Borya228",
+        "type": "user",
+        "phone": "822222222"
+      },
+      "elementId": "44"
+    },
+    {
+      "identity": 45,
+      "labels": [
+        "USER"
+      ],
+      "properties": {
+        "name": "Clay",
+        "password": "4236",
+        "login": "2233ewr23",
+        "type": "user",
+        "phone": "811111111"
+      },
+      "elementId": "45"
+    },
+    {
+      "identity": 46,
+      "labels": [
+        "USER"
+      ],
+      "properties": {
+        "name": "Dan",
+        "password": "1325",
+        "login": "LittleKitten",
+        "type": "user",
+        "phone": "823234342"
+      },
+      "elementId": "46"
+    },
+    {
+      "identity": 47,
+      "labels": [
+        "USER"
+      ],
+      "properties": {
+        "name": "Worker2",
+        "password": "2378",
+        "type": "admin",
+        "login": "worker_parker",
+        "phone": "345676899"
+      },
+      "elementId": "47"
+    },
+    {
+      "identity": 48,
+      "labels": [
+        "USER"
+      ],
+      "properties": {
+        "name": "Worker3",
+        "password": "8976",
+        "type": "admin",
+        "login": "hahashashashh",
+        "phone": "234325678"
+      },
+      "elementId": "48"
+    },
+    {
+      "identity": 49,
+      "labels": [
+        "WAREHOUSE_LOG"
+      ],
+      "properties": {
+        "creationTime": 2100,
+        "actionType": 1
+      },
+      "elementId": "49"
+    },
+    {
+      "identity": 50,
+      "labels": [
+        "WAREHOUSE_LOG"
+      ],
+      "properties": {
+        "creationTime": 2300,
+        "actionType": 1
+      },
+      "elementId": "50"
+    },
+    {
+      "identity": 51,
+      "labels": [
+        "WAREHOUSE_LOG"
+      ],
+      "properties": {
+        "creationTime": 2345,
+        "actionType": 1
+      },
+      "elementId": "51"
+    },
+    {
+      "identity": 52,
+      "labels": [
+        "TRIP"
+      ],
+      "properties": {
+        "cost": 80,
+        "time_end": 2100,
+        "time_start": 2000,
+        "status": 0
+      },
+      "elementId": "52"
+    },
+    {
+      "identity": 53,
+      "labels": [
+        "TRIP"
+      ],
+      "properties": {
+        "cost": 130,
+        "time_end": 1900,
+        "time_start": 1600,
+        "status": 0
+      },
+      "elementId": "53"
+    },
+    {
+      "identity": 54,
+      "labels": [
+        "TRIP"
+      ],
+      "properties": {
+        "cost": 123,
+        "time_end": 2100,
+        "time_start": 1700,
+        "status": 0
+      },
+      "elementId": "54"
+    },
+    {
+      "identity": 55,
+      "labels": [
+        "TRIP"
+      ],
+      "properties": {
+        "cost": 0,
+        "time_end": 0,
+        "time_start": 1705,
+        "status": 1
+      },
+      "elementId": "55"
+    },
+    {
+      "identity": 56,
+      "labels": [
+        "TRIP"
+      ],
+      "properties": {
+        "cost": 0,
+        "time_end": 0,
+        "time_start": 2023,
+        "status": 1
+      },
+      "elementId": "56"
+    },
+    {
+      "identity": 57,
+      "labels": [
+        "TRIP"
+      ],
+      "properties": {
+        "cost": 0,
+        "time_end": 0,
+        "time_start": 1300,
+        "status": 1
+      },
+      "elementId": "57"
+    },
+    {
+      "identity": 58,
+      "labels": [
+        "WAREHOUSE_LOG"
+      ],
+      "properties": {
+        "creationTime": 1110,
+        "actionType": 1
+      },
+      "elementId": "58"
+    },
+    {
+      "identity": 59,
+      "labels": [
+        "WAREHOUSE_LOG"
+      ],
+      "properties": {
+        "creationTime": 2120,
+        "actionType": 1
+      },
+      "elementId": "59"
+    },
+    {
+      "identity": 60,
+      "labels": [
+        "WAREHOUSE_LOG"
+      ],
+      "properties": {
+        "creationTime": 2045,
+        "actionType": 1
+      },
+      "elementId": "60"
+    },
+    {
+      "identity": 61,
+      "labels": [
+        "WAREHOUSE_LOG"
+      ],
+      "properties": {
+        "creationTime": 1300,
+        "actionType": 0
+      },
+      "elementId": "61"
+    },
+    {
+      "identity": 62,
+      "labels": [
+        "WAREHOUSE_LOG"
+      ],
+      "properties": {
+        "creationTime": 1300,
+        "actionType": 0
+      },
+      "elementId": "62"
+    },
+    {
+      "identity": 63,
+      "labels": [
+        "WAREHOUSE_LOG"
+      ],
+      "properties": {
+        "creationTime": 1445,
+        "actionType": 0
+      },
+      "elementId": "63"
+    },
+    {
+      "identity": 64,
+      "labels": [
+        "MAINTENANCE_LOG"
+      ],
+      "properties": {
+        "message": "it is ok (again)"
+      },
+      "elementId": "64"
+    }
+  ],
+  "relationships": [
+    {
+      "identity": 0,
+      "start": 1,
+      "end": 2,
+      "type": "TRAVELLED",
+      "properties": {},
+      "elementId": "0",
+      "startNodeElementId": "1",
+      "endNodeElementId": "2"
+    },
+    {
+      "identity": 1,
+      "start": 2,
+      "end": 3,
+      "type": "USED",
+      "properties": {},
+      "elementId": "1",
+      "startNodeElementId": "2",
+      "endNodeElementId": "3"
+    },
+    {
+      "identity": 2,
+      "start": 4,
+      "end": 3,
+      "type": "TALKS_ABOUT",
+      "properties": {},
+      "elementId": "2",
+      "startNodeElementId": "4",
+      "endNodeElementId": "3"
+    },
+    {
+      "identity": 3,
+      "start": 5,
+      "end": 3,
+      "type": "HAS_NOW",
+      "properties": {},
+      "elementId": "3",
+      "startNodeElementId": "5",
+      "endNodeElementId": "3"
+    },
+    {
+      "identity": 4,
+      "start": 5,
+      "end": 6,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "4",
+      "startNodeElementId": "5",
+      "endNodeElementId": "6"
+    },
+    {
+      "identity": 5,
+      "start": 6,
+      "end": 7,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "5",
+      "startNodeElementId": "6",
+      "endNodeElementId": "7"
+    },
+    {
+      "identity": 7,
+      "start": 5,
+      "end": 8,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "7",
+      "startNodeElementId": "5",
+      "endNodeElementId": "8"
+    },
+    {
+      "identity": 8,
+      "start": 8,
+      "end": 9,
+      "type": "HAS_INFO_FOR",
+      "properties": {},
+      "elementId": "8",
+      "startNodeElementId": "8",
+      "endNodeElementId": "9"
+    },
+    {
+      "identity": 10,
+      "start": 7,
+      "end": 10,
+      "type": "TALKS_ABOUT",
+      "properties": {},
+      "elementId": "10",
+      "startNodeElementId": "7",
+      "endNodeElementId": "10"
+    },
+    {
+      "identity": 9,
+      "start": 9,
+      "end": 10,
+      "type": "KEEPS_NOW",
+      "properties": {},
+      "elementId": "9",
+      "startNodeElementId": "9",
+      "endNodeElementId": "10"
+    },
+    {
+      "identity": 11,
+      "start": 18,
+      "end": 11,
+      "type": "TALKS_ABOUT",
+      "properties": {},
+      "elementId": "11",
+      "startNodeElementId": "18",
+      "endNodeElementId": "11"
+    },
+    {
+      "identity": 12,
+      "start": 19,
+      "end": 12,
+      "type": "TALKS_ABOUT",
+      "properties": {},
+      "elementId": "12",
+      "startNodeElementId": "19",
+      "endNodeElementId": "12"
+    },
+    {
+      "identity": 13,
+      "start": 20,
+      "end": 13,
+      "type": "TALKS_ABOUT",
+      "properties": {},
+      "elementId": "13",
+      "startNodeElementId": "20",
+      "endNodeElementId": "13"
+    },
+    {
+      "identity": 14,
+      "start": 21,
+      "end": 14,
+      "type": "TALKS_ABOUT",
+      "properties": {},
+      "elementId": "14",
+      "startNodeElementId": "21",
+      "endNodeElementId": "14"
+    },
+    {
+      "identity": 15,
+      "start": 22,
+      "end": 15,
+      "type": "TALKS_ABOUT",
+      "properties": {},
+      "elementId": "15",
+      "startNodeElementId": "22",
+      "endNodeElementId": "15"
+    },
+    {
+      "identity": 16,
+      "start": 23,
+      "end": 16,
+      "type": "TALKS_ABOUT",
+      "properties": {},
+      "elementId": "16",
+      "startNodeElementId": "23",
+      "endNodeElementId": "16"
+    },
+    {
+      "identity": 17,
+      "start": 24,
+      "end": 17,
+      "type": "TALKS_ABOUT",
+      "properties": {},
+      "elementId": "17",
+      "startNodeElementId": "24",
+      "endNodeElementId": "17"
+    },
+    {
+      "identity": 18,
+      "start": 25,
+      "end": 18,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "18",
+      "startNodeElementId": "25",
+      "endNodeElementId": "18"
+    },
+    {
+      "identity": 19,
+      "start": 26,
+      "end": 19,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "19",
+      "startNodeElementId": "26",
+      "endNodeElementId": "19"
+    },
+    {
+      "identity": 20,
+      "start": 27,
+      "end": 20,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "20",
+      "startNodeElementId": "27",
+      "endNodeElementId": "20"
+    },
+    {
+      "identity": 21,
+      "start": 28,
+      "end": 21,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "21",
+      "startNodeElementId": "28",
+      "endNodeElementId": "21"
+    },
+    {
+      "identity": 22,
+      "start": 29,
+      "end": 22,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "22",
+      "startNodeElementId": "29",
+      "endNodeElementId": "22"
+    },
+    {
+      "identity": 23,
+      "start": 30,
+      "end": 23,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "23",
+      "startNodeElementId": "30",
+      "endNodeElementId": "23"
+    },
+    {
+      "identity": 24,
+      "start": 31,
+      "end": 24,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "24",
+      "startNodeElementId": "31",
+      "endNodeElementId": "24"
+    },
+    {
+      "identity": 27,
+      "start": 41,
+      "end": 15,
+      "type": "KEEPS_NOW",
+      "properties": {},
+      "elementId": "27",
+      "startNodeElementId": "41",
+      "endNodeElementId": "15"
+    },
+    {
+      "identity": 26,
+      "start": 41,
+      "end": 13,
+      "type": "KEEPS_NOW",
+      "properties": {},
+      "elementId": "26",
+      "startNodeElementId": "41",
+      "endNodeElementId": "13"
+    },
+    {
+      "identity": 25,
+      "start": 41,
+      "end": 17,
+      "type": "KEEPS_NOW",
+      "properties": {},
+      "elementId": "25",
+      "startNodeElementId": "41",
+      "endNodeElementId": "17"
+    },
+    {
+      "identity": 31,
+      "start": 47,
+      "end": 25,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "31",
+      "startNodeElementId": "47",
+      "endNodeElementId": "25"
+    },
+    {
+      "identity": 30,
+      "start": 47,
+      "end": 28,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "30",
+      "startNodeElementId": "47",
+      "endNodeElementId": "28"
+    },
+    {
+      "identity": 29,
+      "start": 47,
+      "end": 31,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "29",
+      "startNodeElementId": "47",
+      "endNodeElementId": "31"
+    },
+    {
+      "identity": 28,
+      "start": 47,
+      "end": 29,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "28",
+      "startNodeElementId": "47",
+      "endNodeElementId": "29"
+    },
+    {
+      "identity": 35,
+      "start": 48,
+      "end": 14,
+      "type": "HAS_NOW",
+      "properties": {},
+      "elementId": "35",
+      "startNodeElementId": "48",
+      "endNodeElementId": "14"
+    },
+    {
+      "identity": 34,
+      "start": 48,
+      "end": 27,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "34",
+      "startNodeElementId": "48",
+      "endNodeElementId": "27"
+    },
+    {
+      "identity": 33,
+      "start": 48,
+      "end": 30,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "33",
+      "startNodeElementId": "48",
+      "endNodeElementId": "30"
+    },
+    {
+      "identity": 32,
+      "start": 48,
+      "end": 26,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "32",
+      "startNodeElementId": "48",
+      "endNodeElementId": "26"
+    },
+    {
+      "identity": 38,
+      "start": 49,
+      "end": 41,
+      "type": "HAS_INFO_FOR",
+      "properties": {},
+      "elementId": "38",
+      "startNodeElementId": "49",
+      "endNodeElementId": "41"
+    },
+    {
+      "identity": 37,
+      "start": 49,
+      "end": 22,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "37",
+      "startNodeElementId": "49",
+      "endNodeElementId": "22"
+    },
+    {
+      "identity": 36,
+      "start": 47,
+      "end": 49,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "36",
+      "startNodeElementId": "47",
+      "endNodeElementId": "49"
+    },
+    {
+      "identity": 41,
+      "start": 50,
+      "end": 41,
+      "type": "HAS_INFO_FOR",
+      "properties": {},
+      "elementId": "41",
+      "startNodeElementId": "50",
+      "endNodeElementId": "41"
+    },
+    {
+      "identity": 40,
+      "start": 50,
+      "end": 20,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "40",
+      "startNodeElementId": "50",
+      "endNodeElementId": "20"
+    },
+    {
+      "identity": 39,
+      "start": 47,
+      "end": 50,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "39",
+      "startNodeElementId": "47",
+      "endNodeElementId": "50"
+    },
+    {
+      "identity": 44,
+      "start": 51,
+      "end": 41,
+      "type": "HAS_INFO_FOR",
+      "properties": {},
+      "elementId": "44",
+      "startNodeElementId": "51",
+      "endNodeElementId": "41"
+    },
+    {
+      "identity": 43,
+      "start": 51,
+      "end": 24,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "43",
+      "startNodeElementId": "51",
+      "endNodeElementId": "24"
+    },
+    {
+      "identity": 42,
+      "start": 48,
+      "end": 51,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "42",
+      "startNodeElementId": "48",
+      "endNodeElementId": "51"
+    },
+    {
+      "identity": 46,
+      "start": 52,
+      "end": 16,
+      "type": "USED",
+      "properties": {},
+      "elementId": "46",
+      "startNodeElementId": "52",
+      "endNodeElementId": "16"
+    },
+    {
+      "identity": 45,
+      "start": 44,
+      "end": 52,
+      "type": "TRAVELLED",
+      "properties": {},
+      "elementId": "45",
+      "startNodeElementId": "44",
+      "endNodeElementId": "52"
+    },
+    {
+      "identity": 48,
+      "start": 53,
+      "end": 12,
+      "type": "USED",
+      "properties": {},
+      "elementId": "48",
+      "startNodeElementId": "53",
+      "endNodeElementId": "12"
+    },
+    {
+      "identity": 47,
+      "start": 44,
+      "end": 53,
+      "type": "TRAVELLED",
+      "properties": {},
+      "elementId": "47",
+      "startNodeElementId": "44",
+      "endNodeElementId": "53"
+    },
+    {
+      "identity": 50,
+      "start": 44,
+      "end": 54,
+      "type": "TRAVELLED",
+      "properties": {},
+      "elementId": "50",
+      "startNodeElementId": "44",
+      "endNodeElementId": "54"
+    },
+    {
+      "identity": 49,
+      "start": 54,
+      "end": 11,
+      "type": "USED",
+      "properties": {},
+      "elementId": "49",
+      "startNodeElementId": "54",
+      "endNodeElementId": "11"
+    },
+    {
+      "identity": 52,
+      "start": 46,
+      "end": 55,
+      "type": "TRAVELLED",
+      "properties": {},
+      "elementId": "52",
+      "startNodeElementId": "46",
+      "endNodeElementId": "55"
+    },
+    {
+      "identity": 51,
+      "start": 55,
+      "end": 12,
+      "type": "USED",
+      "properties": {},
+      "elementId": "51",
+      "startNodeElementId": "55",
+      "endNodeElementId": "12"
+    },
+    {
+      "identity": 54,
+      "start": 56,
+      "end": 16,
+      "type": "USED",
+      "properties": {},
+      "elementId": "54",
+      "startNodeElementId": "56",
+      "endNodeElementId": "16"
+    },
+    {
+      "identity": 53,
+      "start": 46,
+      "end": 56,
+      "type": "TRAVELLED",
+      "properties": {},
+      "elementId": "53",
+      "startNodeElementId": "46",
+      "endNodeElementId": "56"
+    },
+    {
+      "identity": 56,
+      "start": 45,
+      "end": 57,
+      "type": "TRAVELLED",
+      "properties": {},
+      "elementId": "56",
+      "startNodeElementId": "45",
+      "endNodeElementId": "57"
+    },
+    {
+      "identity": 55,
+      "start": 57,
+      "end": 11,
+      "type": "USED",
+      "properties": {},
+      "elementId": "55",
+      "startNodeElementId": "57",
+      "endNodeElementId": "11"
+    },
+    {
+      "identity": 59,
+      "start": 58,
+      "end": 18,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "59",
+      "startNodeElementId": "58",
+      "endNodeElementId": "18"
+    },
+    {
+      "identity": 58,
+      "start": 58,
+      "end": 39,
+      "type": "HAS_INFO_FOR",
+      "properties": {},
+      "elementId": "58",
+      "startNodeElementId": "58",
+      "endNodeElementId": "39"
+    },
+    {
+      "identity": 57,
+      "start": 47,
+      "end": 58,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "57",
+      "startNodeElementId": "47",
+      "endNodeElementId": "58"
+    },
+    {
+      "identity": 62,
+      "start": 48,
+      "end": 59,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "62",
+      "startNodeElementId": "48",
+      "endNodeElementId": "59"
+    },
+    {
+      "identity": 60,
+      "start": 59,
+      "end": 39,
+      "type": "HAS_INFO_FOR",
+      "properties": {},
+      "elementId": "60",
+      "startNodeElementId": "59",
+      "endNodeElementId": "39"
+    },
+    {
+      "identity": 65,
+      "start": 60,
+      "end": 40,
+      "type": "HAS_INFO_FOR",
+      "properties": {},
+      "elementId": "65",
+      "startNodeElementId": "60",
+      "endNodeElementId": "40"
+    },
+    {
+      "identity": 64,
+      "start": 47,
+      "end": 60,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "64",
+      "startNodeElementId": "47",
+      "endNodeElementId": "60"
+    },
+    {
+      "identity": 63,
+      "start": 60,
+      "end": 23,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "63",
+      "startNodeElementId": "60",
+      "endNodeElementId": "23"
+    },
+    {
+      "identity": 68,
+      "start": 61,
+      "end": 18,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "68",
+      "startNodeElementId": "61",
+      "endNodeElementId": "18"
+    },
+    {
+      "identity": 67,
+      "start": 61,
+      "end": 39,
+      "type": "HAS_INFO_FOR",
+      "properties": {},
+      "elementId": "67",
+      "startNodeElementId": "61",
+      "endNodeElementId": "39"
+    },
+    {
+      "identity": 66,
+      "start": 47,
+      "end": 61,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "66",
+      "startNodeElementId": "47",
+      "endNodeElementId": "61"
+    },
+    {
+      "identity": 71,
+      "start": 47,
+      "end": 62,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "71",
+      "startNodeElementId": "47",
+      "endNodeElementId": "62"
+    },
+    {
+      "identity": 70,
+      "start": 62,
+      "end": 39,
+      "type": "HAS_INFO_FOR",
+      "properties": {},
+      "elementId": "70",
+      "startNodeElementId": "62",
+      "endNodeElementId": "39"
+    },
+    {
+      "identity": 69,
+      "start": 62,
+      "end": 19,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "69",
+      "startNodeElementId": "62",
+      "endNodeElementId": "19"
+    },
+    {
+      "identity": 74,
+      "start": 63,
+      "end": 23,
+      "type": "ATTACHED_TO",
+      "properties": {},
+      "elementId": "74",
+      "startNodeElementId": "63",
+      "endNodeElementId": "23"
+    },
+    {
+      "identity": 73,
+      "start": 48,
+      "end": 63,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "73",
+      "startNodeElementId": "48",
+      "endNodeElementId": "63"
+    },
+    {
+      "identity": 72,
+      "start": 63,
+      "end": 40,
+      "type": "HAS_INFO_FOR",
+      "properties": {},
+      "elementId": "72",
+      "startNodeElementId": "63",
+      "endNodeElementId": "40"
+    },
+    {
+      "identity": 76,
+      "start": 48,
+      "end": 64,
+      "type": "CREATED",
+      "properties": {},
+      "elementId": "75",
+      "startNodeElementId": "48",
+      "endNodeElementId": "64"
+    }
+  ]
+}

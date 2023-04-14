@@ -1,0 +1,41 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title Добавление самоката
+        link(rel='stylesheet', href='/stylesheets/w3.css')
+        link(href='style.css' rel='stylesheet' type='text/css')
+    body
+        header
+            .container
+                a.back-main(href='/main') Back
+                a.exit-account(href='/exit') Exit
+
+        .addScooter
+            form.w3-center(action='/add_edit_scooter', method='get')
+                .addScooterInputs
+                    h3 №" самоката:
+                    input.addScooterInput#scooterNum(type='number', name='number', required)
+                    h3 id склада:
+                    //input.addScooterInput#scooterWarehouse(type='select', name='warehouse', required='')
+                    select.addScooterSelect
+                        for i in warehouses
+                            option=i.houseNumber
+                    h3 Производитель:
+                    input.addScooterInput#scooterManufactutre(type='text', name='manufacturer' value = 'Apple')
+                    h3 Год производства:
+                    input.addScooterInput#scooterYear(type='number', min=1900, max=2022, name='creation_year' value = '2021')
+                    h3 Максимальная емкость батареи:
+                    input.addScooterInput#scooterBattery(type='number', name='max_power_cap' value = 100)
+                    h3 Текущий пробег:
+                    input.addScooterInput#scooterMileage(type='number', min=0, name='mileage' value = 0)
+                    h3 Статус:
+                    input.addScooterInput#scooterStatus(type='text', name='status' value = 'free')
+                    h3 Лог тех. обслуживания:
+                    input.addScooterInput#scooterTechLog(type='text', name='techLog')
+                    h3 Лог движения по складам:
+                    input.addScooterInput#scooterWarehouseLog(type='text', name='warehouseLog')
+                |
+                br
+                br
+                button#loginButton.w3-button.w3-gray(onclick='') Подтвердить

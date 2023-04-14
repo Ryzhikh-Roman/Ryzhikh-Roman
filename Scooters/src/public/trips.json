@@ -1,0 +1,20 @@
+[
+  {
+    "time_start": "9240853",
+    "time_end": "9242903",
+    "cost": "150",
+    "status": "Окончена"
+  },
+  {
+    "time_start": "8340853",
+    "time_end": "8542903",
+    "cost": "1500",
+    "status": "Окончена"
+  },
+  {
+    "time_start": "18340853",
+    "time_end": "None",
+    "cost": "None",
+    "status": "Идет"
+  }
+]

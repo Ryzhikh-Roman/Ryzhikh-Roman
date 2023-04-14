@@ -1,0 +1,12 @@
+﻿a
+"{""maxPowerCapacity"":100,""creationYear"":2022,""manufacturer"":Xiaomi,""mileage"":0}"
+"{""number"":2,""battery"":81,""coordinate_x"":5,""coordinate_y"":11,""status"":3}"
+"{""maxPowerCapacity"":98,""creationYear"":2021,""manufacturer"":Yandex,""mileage"":100}"
+"{""houseNumber"":1}"
+"{""message"":it is ok}"
+"{""creationTime"":0,""actionType"":1}"
+"{""name"":Pavel,""password"":0000,""login"":TypicalUser,""type"":0,""phone"":111222333}"
+"{""name"":Sergey,""password"":1234,""login"":TypicalWorker,""type"":1,""phone"":444555666}"
+"{""cost"":0,""time_end"":0,""time_start"":0,""status"":0}"
+"{""adress"":Saint-Petersburg,""coordinate_x"":27,""coordinate_y"":67}"
+"{""number"":1,""battery"":86,""coordinate_x"":10,""coordinate_y"":20,""status"":1}"

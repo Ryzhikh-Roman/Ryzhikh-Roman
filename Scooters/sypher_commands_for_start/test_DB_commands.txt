@@ -1,0 +1,32 @@
+create (:UNLOADING_AREA {address: 'Saint-Petersburg', coordinate_x: 27, coordinate_y: 67})
+
+create (pavel:USER {name: 'Pavel', password: '0000', login: 'TypicalUser', type: 0, phone: '111222333'})-[:TRAVELLED]->(:TRIP {cost: 0, time_end: 0, time_start: 0, status: 0})
+
+match (trip:TRIP)
+create (sc:SCOOTER {number: 1, battery: 86, coordinate_x: 10, coordinate_y: 20, status: 1})
+create (trip)-[:USED]->(sc)
+
+match(sc:SCOOTER)
+create(tc:TECH_CARD {maxPowerCapacity: 100, creationYear: 2022, manufacturer: 'Xiaomi', mileage: 0})
+create (tc)-[:TALKS_ABOUT]->(sc)
+
+match (sc:SCOOTER)
+create (sergey:USER {name: 'Sergey', password: '1234', login: 'TypicalWorker', type: 1, phone: '444555666'})
+create (sergey)-[:HAS_NOW]->(sc)
+
+match (sergey:USER {name: 'Sergey'})
+create (m_log:MAINTENANCE_LOG {message: 'it is ok'})
+create (tc:TECH_CARD {maxPowerCapacity: 98, creationYear: 2021, manufacturer: 'Yandex', mileage: 100})
+create (w_log:WAREHOUSE_LOG {creationTime: 0, actionType: 1})
+create (m_log)-[:ATTACHED_TO]->(tc)
+create (sergey)-[:CREATED]->(m_log)
+create (sergey)-[:CREATED]->(w_log) 
+
+match (w_log:WAREHOUSE_LOG)
+match (tc:TECH_CARD {manufacturer: 'Yandex'})
+create (w_log)-[:ATTACHED_TO]->(tc)
+create (wh:WAREHOUSE {houseNumber: 1, coordinate_x:0, coordinate_y:0, capacity:12})
+create (w_log)-[:HAS_INFO_FOR]->(wh)
+create (sc:SCOOTER {number: 2, battery: 81, coordinate_x: 5, coordinate_y: 11, status: 3})
+create (tc)-[:TALKS_ABOUT]->(sc)
+create (wh)-[:KEEPS_NOW]->(sc) 

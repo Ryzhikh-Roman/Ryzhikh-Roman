@@ -1,0 +1,38 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title=title
+        link(href='style.css' rel='stylesheet' type='text/css')
+        link(rel='stylesheet', href='/stylesheets/w3.css')
+        script(src='javascripts/sortTable.js')
+    body
+        header
+            .container
+                a.back-main(href='/dbs' class="gg-arrow-left")
+                a.exit-account(href='/exit') Exit
+
+        h2.table-title=title
+        - var i = 0;
+        - var j = 0
+        - var index = 0
+        table.w3-table-all#myTable2
+            tr
+                while index < keys.length
+                    - console.log("index = ", index)
+                    th(onclick="sortTable(" + index + ")") #{keys[index]}
+                    - index++
+
+            - console.log("len = ", data.length)
+            while j < data.length
+                - console.log("j = ", j)
+                - i = 0
+                while i < data[j].length
+                    - console.log(i)
+                    tr
+                        for val in Object.values(data[j][i])
+                            td #{val}
+                    - i++
+                - j++
+
+        footer

@@ -1,0 +1,44 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title Title
+        link(href='style.css' rel='stylesheet' type='text/css')
+    body
+        header
+            .container
+                nav
+                    a.exit-account(href='/exit') Exit
+                    audio(controls= '')
+                        source(src='music/keks+ukrop.mp3' type='audio/mpeg')
+                        a(href='music/keks+ukrop.mp3')
+                    input#hmt.hidden-menu-ticker(type='checkbox')
+                    label.btn-menu(for='hmt')
+                        span.first
+                        span.second
+                        span.third
+                    ul.hidden-menu(style='padding-top: 100px')
+                        if type === 'admin'
+                            li
+                                a(href='/add_scooter') Добавить/редактировать самокат
+                        if type === 'admin'
+                            li
+                                a(href='') Выгрузить на место
+                        if type === 'admin'
+                            li
+                                a(href='') Отгрузить на склад
+                        if type === 'admin'
+                            li
+                                a(href='/dbs') База данных
+                        li
+                            a(href='/tariffs') Тарифы
+                        li
+                            a(href='/rules') Правила
+                        li
+                            a(href='') Профиль
+                        li
+                            a.about
+        #ya-map.map
+        script(src='https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU')
+        script(src='javascripts/map.js' type='module')
+        footer

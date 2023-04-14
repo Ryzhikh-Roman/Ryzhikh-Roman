@@ -1,0 +1,97 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title Базы данных
+        link(href='style.css' rel='stylesheet' type='text/css')
+        link(rel='stylesheet', href='/stylesheets/w3.css')
+        link(rel='stylesheet', href='/stylesheets/multiselect.css')
+        script(src='javascripts/multiselect.js')
+    body
+        header
+            .container
+                a.back-main(href='/main') Back
+                a.exit-account(href='/exit') Exit
+
+        div.dbs
+            div.db-left
+                h2(style="padding-left: 20px") БАЗЫ ДАННЫХ:
+                ul.db-variants
+                    li
+                        a(href='/clients') Клиенты
+                    li
+                        a(href='/scooters') Самокаты
+                    li
+                        a(href='/warehouses') Склады
+                    li
+                        a(href='/unloading_area') Площадки выгрузки
+                    li
+                        a(href='/trips') Поездки
+
+                h2(style="padding-left: 20px") АГРЕГИРОВАННЫЕ ДАННЫЕ:
+                form.agg-select(action='/aggregated', method='get')
+                    select#language(name='variant')
+                        option(value='0') Пользователи, которые больше всего ломают самокаты
+                        option(value='1') Пользователи, у которых давно не было поздок
+                        option(value='2') Самые далекие от складов самокаты
+                    br
+                    br
+                    button.agg-select-button Подтвердить
+
+                form(action="/export", method="get").exportForm
+                    p База данных экспортируется в src/exported
+                    button.w3-button.importButton Export DB
+                form(action="/import", method="get").importForm
+                    p База данных импортируется из src/exported/bd.json
+                    button.w3-button.exportButton Import DB
+
+            div.db-right
+                form(action='/free-choice', method='get').multiform
+                    .multiselect
+                        .selectBox(onclick='showCheckboxes(0)')
+                            select
+                                option Scooter(-s)
+                            .overSelect
+                        .checkboxes#checkboxes0
+                            for i in scooters
+                                label
+                                    input(type='checkbox' name = "scooters" value = i.number )
+                                    | id #{i.number}
+
+                    .multiselect
+                        .selectBox(onclick='showCheckboxes(1)')
+                            select
+                                option User(-s)
+                            .overSelect
+                        .checkboxes#checkboxes1
+                            for i in users
+                                label
+                                    input(type='checkbox' name = "users" value = i.login)
+                                    | #{i.login}  (#{i.name})
+
+                    .multiselect
+                        .selectBox(onclick='showCheckboxes(2)')
+                            select
+                                option Warehouse(-s)
+                            .overSelect
+                        .checkboxes#checkboxes2
+                            for i in warehouses
+                                label
+                                    input(type='checkbox' name = "warehouses" value = i.number)
+                                    | id #{i.number}
+
+                    .multiselect
+                        .selectBox(onclick='showCheckboxes(3)')
+                            select
+                                option Unloading area
+                            .overSelect
+                        .checkboxes#checkboxes3
+                            for i in unloading_area
+                                label
+                                    input(type='checkbox' name = "unloading_areas" value = i.id)
+                                    | #{i.id}  (#{i.address})
+
+
+                    button.db-button-right.w3-button Подтвердить
+
+        footer

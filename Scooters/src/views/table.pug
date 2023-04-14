@@ -1,0 +1,51 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title=title
+        link(href='/style.css' rel='stylesheet' type='text/css')
+        link(rel='stylesheet', href='/stylesheets/w3.css')
+        script(src='javascripts/sortTable.js')
+    body
+        header
+            .container
+                a.back-main(href='/dbs' class="gg-arrow-left")
+                a.exit-account(href='/exit') Exit
+        .dbDiv
+            .dbContent
+                h2.table-title=title
+                - var i = 0;
+                - var index = 0
+                table.w3-table-all#myTable2
+                    tr
+                        while index < keys.length
+                            th(onclick="sortTable(" + index + ")") #{keys[index]}
+                            - index++
+
+                    while i < data.length
+                        tr
+                            for key in keys
+                                td #{data[i][key]}
+                        - i++
+
+            - let stringKeys = ['name', 'password', 'login', 'type', 'phone', 'address', 'status']
+            .dbFilter
+                h2.table-title Фильтры
+                p.dbTitle(hidden)=title
+                form.dbFilterForm(action="/filter/"+title, method='post')
+                    for key in keys
+                        h3=key+":"
+                        if !stringKeys.includes(key)
+                            .startEndDiv
+                                p ОТ
+                                input(type='number' name="start_"+key+"")
+                                p ДО
+                                input(type='number' name="stop_"+key+"")
+                        else
+                            input(type='text' name=key)
+                    br
+                    br
+                    button Подтвердить
+                        //число - object, строка - string
+
+        footer

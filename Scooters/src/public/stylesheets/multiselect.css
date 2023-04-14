@@ -1,0 +1,50 @@
+.multiselect {
+    min-width: 120px;
+    max-width: 150px;
+    margin: 10px 5px;
+}
+
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 100%;
+    font-weight: bold;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.checkboxes{
+    display: none;
+    border: 1px #dadada solid;
+    z-index: 2;
+}
+
+.checkboxes label{
+    display: block;
+}
+
+.checkboxes label:hover {
+    background-color: #1e90ff;
+}
+
+.db-button-right {
+    margin: 10px 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 150px;
+    height: 40px;
+    z-index: 1;
+}
+
+.multiform {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+

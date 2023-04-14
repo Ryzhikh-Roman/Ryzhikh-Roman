@@ -1,0 +1,285 @@
+:root {
+    --primColor: #dcdcdc;
+    --secoColor: #555555;
+    --cornerRad: 4px;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    padding: 0;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #6d5775;
+}
+.exit-account {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+nav {
+}
+
+nav audio {
+    position: absolute;
+    left: 42%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    /*display: inline-block; один из способов разместить элементы в строку*/
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    text-decoration: none;
+    line-height: 38px;
+}
+
+.hidden-menu {
+    display: block;
+    position: fixed;
+    list-style:none;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100%;
+    top: 0;
+    left: -200px;
+    transition: left .2s;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    background-color: #6d5775;
+}
+
+.hidden-menu-ticker {
+    display: none;
+}
+
+.btn-menu {
+    color: #fff;
+    background-color: #0058B9;
+    padding: 7px;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+    transition: left .23s;
+    z-index: 3;
+    width: 25px;
+    float: left;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+.btn-menu span {
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0 0;
+    transition: all .1s linear .23s;
+    position: relative;
+}
+.btn-menu span.first {
+    margin-top: 0;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu {
+    left: 15px;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+    left: 0;
+}
+
+body, html{
+    height: 99%;
+}
+.map {
+    width: 100%;
+    min-height: 600px;
+    height: calc(100% - 50px);
+    background-color: aqua;
+}
+
+html{
+    background-image: url("/images/carpet.jpg");
+}
+
+.tariffs-description{
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 110px);
+}
+
+.rules-description{
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 250px);
+}
+
+.dbs{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.db-left{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid black;
+}
+
+.db-right{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: calc(100% - 300px);
+    height: 100%;
+}
+
+.db-variants li{
+    list-style:none;
+    height: 50px;
+    font-size: 25px;
+}
+
+.agg-select{
+    padding-left: 20px;
+}
+
+select{
+    border:none;
+    padding: 10px 10px;
+    width: 250px;
+    border-radius:5px;
+    font-size: 15px;
+}
+
+select:focus{
+    outline:none;
+}
+
+.agg-select-button{
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.gg-arrow-left {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px
+}
+.gg-arrow-left::after,
+.gg-arrow-left::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 3px
+}
+.gg-arrow-left::after {
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+    bottom: -10px
+}
+.gg-arrow-left::before {
+    width: 40px;
+    height: 2px;
+    bottom: -1px;
+    background: currentColor
+}
+
+.table-title{
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.addScooter{
+    background-color: rgba(255,255,255,0.5);
+    min-height: 750px;
+    height: calc(100% - 50px) !important;
+    margin-top: 5px;
+}
+
+.addScooterInputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: right;
+}
+
+.addScooterInput {
+    height: 50%;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.addScooterSelect {
+    height: 60%;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.dbContent {
+    height: 100%;
+    width: 100%;
+}
+
+.dbFilter {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(109, 87, 117, 0.7);
+}
+
+.dbDiv {
+    display: grid;
+    grid-template-columns: auto 300px;
+}
+
+.startEndDiv {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 30px;
+}
+
+.startEndDiv input{
+    width: 200px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.dbFilterForm {
+    margin-left: 10px;
+}
+
+.importButton, .exportButton {
+    background-color: rgba(192,192,192,0.74) !important;
+}
+
+.importForm, .exportForm {
+    margin: 10px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px 20px;
+}

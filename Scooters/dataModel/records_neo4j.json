@@ -1,0 +1,151 @@
+﻿[
+  {
+    "a": {
+"identity": 0,
+"labels": [
+        "TECH_CARD"
+      ],
+"properties": {
+"maxPowerCapacity": 100,
+"creationYear": 2022,
+"manufacturer": "Xiaomi",
+"mileage": 0
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 1,
+"labels": [
+        "SCOOTER"
+      ],
+"properties": {
+"number": 2,
+"battery": 81,
+"coordinate_x": 5,
+"coordinate_y": 11,
+"status": 3
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 2,
+"labels": [
+        "TECH_CARD"
+      ],
+"properties": {
+"maxPowerCapacity": 98,
+"creationYear": 2021,
+"manufacturer": "Yandex",
+"mileage": 100
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 3,
+"labels": [
+        "WAREHOUSE"
+      ],
+"properties": {
+"houseNumber": 1
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 4,
+"labels": [
+        "MAINTENANCE_LOG"
+      ],
+"properties": {
+"message": "it is ok"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 5,
+"labels": [
+        "WAREHOUSE_LOG"
+      ],
+"properties": {
+"creationTime": 0,
+"actionType": 1
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 6,
+"labels": [
+        "USER"
+      ],
+"properties": {
+"name": "Pavel",
+"password": "0000",
+"login": "TypicalUser",
+"type": 0,
+"phone": 111222333
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 7,
+"labels": [
+        "USER"
+      ],
+"properties": {
+"name": "Sergey",
+"password": "1234",
+"login": "TypicalWorker",
+"type": 1,
+"phone": 444555666
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 8,
+"labels": [
+        "TRIP"
+      ],
+"properties": {
+"cost": 0,
+"time_end": 0,
+"time_start": 0,
+"status": 0
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 9,
+"labels": [
+        "UNLOADING_AREA"
+      ],
+"properties": {
+"adress": "Saint-Petersburg",
+"coordinate_x": 27,
+"coordinate_y": 67
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 11,
+"labels": [
+        "SCOOTER"
+      ],
+"properties": {
+"number": 1,
+"battery": 86,
+"coordinate_x": 10,
+"coordinate_y": 20,
+"status": 1
+      }
+    }
+  }
+]
